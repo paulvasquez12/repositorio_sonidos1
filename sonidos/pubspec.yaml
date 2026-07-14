@@ -1,0 +1,27 @@
+name: sonidos
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Depende de tu versión actual de Flutter
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 1. Agrega la librería de audio aquí (debajo de flutter sdk)
+  audioplayers: ^6.0.0 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # 2. Descomenta y agrega la carpeta de assets AQUÍ.
+  # Debe estar alineado con 'uses-material-design' (2 espacios de margen)
+  assets:
+    - assets/
